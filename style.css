@@ -81,7 +81,7 @@
 	background: #5DB9EE;
 }
 
-button:nth-child(1):hover{
+.btn:nth-child(1):hover{
 	background: transparent;;
 	color: #5DB9EE;
 }
@@ -109,7 +109,7 @@ button:nth-child(1):hover{
 	background-image: url("nityapic.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	border: 1rem solid white;
+	
 	box-shadow:
 		0 0 1rem #fff,
 	        inset 0 0 1rem #fff,
