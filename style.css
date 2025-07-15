@@ -107,7 +107,7 @@ button:nth-child(1):hover{
 }
 .circle:nth-child(2){
 	width: 30rem;
-	background-image: url("image/nityapic.png");
+	background-image: url("nityapic.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	border: 1rem solid white;
