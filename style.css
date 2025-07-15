@@ -81,7 +81,7 @@
 	background: #5DB9EE;
 }
 
-.btn:nth-child(1):hover{
+.btn:hover{
 	background: transparent;;
 	color: #fff;
 }
