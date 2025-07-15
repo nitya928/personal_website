@@ -50,7 +50,7 @@
 }
 .icons{
 	display: flex;
-	flex-direction: coluumn;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 3rem;
