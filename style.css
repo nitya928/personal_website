@@ -83,7 +83,7 @@
 
 .btn:nth-child(1):hover{
 	background: transparent;;
-	color: #5DB9EE;
+	color: #fff;
 }
 .icons .fa-brands:hover{
 	cursor: pointer;
