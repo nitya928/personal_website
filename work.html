@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Work | Your Name</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Work | Nitya Nandni</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    pre {
+      background-color: #f3f3f3;
+      padding: 10px;
+      border-left: 5px solid #1e1e2f;
+      overflow-x: auto;
+    }
+    code {
+      font-family: Consolas, monospace;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <nav>…</nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
   <main>
-    <h1>My Projects</h1>
+    <h1>Projects</h1>
 
     <section>
-      <h2>Dino Game</h2>
-      <p>🦖 A Chrome T-Rex style infinite runner built with JavaScript and Canvas.</p>
-      <a href="https://github.com/nitya928/nitya_dino-game" target="_blank">View on GitHub</a>
+      <h2>🦖 Dino Game</h2>
+      <p>A simple Chrome-style infinite runner made using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/nitya928/nitya_dino-game" target="_blank">GitHub</a> | 
+      <a href="https://nitya-dino-game.vercel.app" target="_blank">Live Demo</a>
+
+      <h3>Key Code:</h3>
+      <pre><code>document.addEventListener("keydown", function (event) {
+  if (event.key === " ") {
+    jump();
+  }
+});
+
+function jump() {
+  var dino = document.getElementById("dino");
+  if (!dino.classList.contains("jump")) {
+    dino.classList.add("jump");
+    setTimeout(function () {
+      dino.classList.remove("jump");
+    }, 500);
+  }
+}</code></pre>
     </section>
 
     <section>
-      <h2>Personal Website</h2>
-      <p>This portfolio site, built using plain HTML/CSS/JS. Showcases my work, skills, and contact info.</p>
-      <a href="https://github.com/nitya928/personal_website" target="_blank">View on GitHub</a>
+      <h2>🌐 Personal Website</h2>
+      <p>You're viewing it now! This responsive personal portfolio is built with pure HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/nitya928/personal_website" target="_blank">GitHub</a>
     </section>
-
-    <!-- Add more project sections here -->
   </main>
 
   <footer>
-    &copy; 2025 Your Name
+    &copy; 2025 Nitya Nandni
   </footer>
 </body>
 </html>
