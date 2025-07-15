@@ -119,8 +119,8 @@
 	        inset 0 0 4rem #3877FF
 	;
 }
-.navlist li a:: after{
-	content:" ";
+.navlist li a::after{
+	content: "";
 	position: absolute;
 	background: #fff;
 	width: 100%;
