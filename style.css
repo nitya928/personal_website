@@ -76,12 +76,11 @@
 .btn {
 	border: .1rem solid #5DB9EE;
 	font-size: 1.1rem;
-	padding: .8rem 1.5rem;
+	padding: 1rem 1.5rem;
 	border-radius: .5rem;
-}
-button:nth-child(1){
 	background: #5DB9EE;
 }
+
 button:nth-child(1):hover{
 	background: transparent;;
 	color: #5DB9EE;
